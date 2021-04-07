@@ -1,14 +1,15 @@
 package ru.job4j.condition;
 
 public class Max {
+    @SuppressWarnings("checkstyle:WhitespaceAround")
     public static int max(int left, int right) {
-      boolean max = true;
-        int result = max ? right : left;
+        int result = left > right?left:right;
+        System.out.println(result);
         return result;
     }
-    public static void main(String[] result) {
-        int left = 1;
-        int right = 2;
+
+    public static void main(String[] args) {
+        int result= Max.max(45, 67);
         System.out.println(result);
     }
 }
