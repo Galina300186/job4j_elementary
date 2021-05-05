@@ -31,7 +31,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas8Thenvinus1() {
+    public void whenArrayHas8Thenminus1() {
         int[] data = {0, 7, 3, 9};
         int el = 2;
         int result = FindLoop.indexOf(data, el);
